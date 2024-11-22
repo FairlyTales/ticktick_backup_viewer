@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
+    "start": "bunx --bun vite",
+    "build": "bunx --bun vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -17,6 +17,7 @@
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
     "@types/eslint": "^9.6.0",
     "autoprefixer": "^10.4.20",
+    "bits-ui": "^0.21.16",
     "clsx": "^2.1.1",
     "eslint": "^9.7.0",
     "eslint-config-prettier": "^9.1.0",
